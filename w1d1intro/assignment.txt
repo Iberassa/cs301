@@ -1,0 +1,25 @@
+1) -There will be a syntax error
+
+   - let, var, const, int, float
+
+2)A computer program is a specific sequence of instructions in a specific programming language.
+  An algorithm is a self-contained step-by-step set of operations to be performed to solve a 
+  specific problem or a class of problems.
+
+3) Face washing
+   -Open tap water 
+   -Pick-up the soap
+   -Rub my hands using soap and water 
+   -Apply the soap bubble on my face
+   -Rub my face  
+   -Rinse my face with water
+   -Dry my face with towel
+
+   * Drinking water
+   -feel thirst
+   -grab bottle
+   -open bottle
+   -drink water
+   -check if thirst is not There
+   -if there is no thirst close bottle
+   -put bottle down
