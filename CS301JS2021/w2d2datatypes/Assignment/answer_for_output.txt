@@ -1,0 +1,31 @@
+1)
+  CODE                                                    OUTPUT
+console.log(Number(null));----------------------------------0
+console.log(Number(undefined));----------------------------NaN  
+console.log(Boolean("0"));---------------------------------true
+console.log(Boolean(" "));---------------------------------true
+
+2)
+  CODE                                                    OUTPUT
+let a = b = 2;
+let c = 3 - (a + b + 1);
+console.log(a--);-------------------------------------------(2)
+console.log(++c);-------------------------------------------(-1)
+console.log(a);---------------------------------------------(1)
+console.log(c);---------------------------------------------(-1)
+
+3) 
+   It will alow the entered string data type to be changed to a number datatype.
+
+4)
+   Both are usefull in programs where we want to have an out come of boolean datatype or to get the truth value of the statement.
+
+   let prompt= require("prompt-sync")();
+   let first_number = + prompt("Enter the first number: ");
+   let second_number = + prompt("Enter the second number: ");
+   console.log((first_number<second_number) && (first_number=second_number)) // if the statement holds false statement the output is false.
+   console.log((first_number<second_number) && (first_number=second_number)) // if the statement holds one truth the truth value will be the output.
+
+5)
+   In computer programming, a statement can be part of an expression is true. Because we can not write a statement
+   where our program expects expresion.

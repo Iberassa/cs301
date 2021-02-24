@@ -4,6 +4,6 @@ let age = parseFloat(age_value);
 let maximum_heart_beat = (220- age);
 let heart_rate_max = maximum_heart_beat*0.85;
 let heart_rate_min = maximum_heart_beat*0.65;
-console.log("The fastest and the slowest heart rate necessary to strengthen your heart are " + heart_rate_max +" and "+ heart_rate_min + " respectivly.")
+console.log("The fastest heart rate is " + heart_rate_max + " and the slowest rate is "  + heart_rate_min + " to strengthen your heart.");
     
 
