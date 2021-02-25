@@ -1,0 +1,13 @@
+
+1) What happens when you forget a break while using switch statement?
+ Ans:-  When we dont use break while using switch if the case statment is 
+        true then after excuting the command inside that case statement the 
+        program will continue excuting the next command instead of breaking 
+        out exiting.
+
+2)
+  The outputs are 0 and 1.
+
+3)
+  yes it will change becuase foo becomes a string and the case statements are in number format.
+  Therefore the output will be:-  default   
