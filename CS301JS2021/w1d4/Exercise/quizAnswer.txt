@@ -1,0 +1,28 @@
+1)
+ const x = 5;
+ console.log(x);   5
+ if(x==5){
+ let y = 2*x;
+ console.log(y); __10______________
+ console.log(x); ___5_____________
+ }
+ console.log(x); ____5____________
+ console.log(y);  referrence error will occur because the variable y is not a global variable. y only 
+                 works in the environment which is stated in.
+
+2) 
+  let x;
+  if(x) {
+  const y=5           referrence error. The will not be an out put because y is not defined in global.
+  };
+  console.log(y);
+
+3)
+  let x;
+  if(!x) {
+  const y=5            referrence error. The will not be an out put because y is not defined in global.             
+  };
+  console.log(y);  
+
+
+    
