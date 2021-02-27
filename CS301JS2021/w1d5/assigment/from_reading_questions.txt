@@ -1,0 +1,15 @@
+1)What are alternatives to default parameters?
+  -There are also undefined parameters. which are parameters
+  with no value.
+
+2)What are things you should consider while naming a function?
+  -Choose a word with meaning
+  -Don't make your names too long or too short
+  -Use consistent formatting
+  -Avoid generic names
+
+3)Do functions need to be always commented? Write your understanding based on
+  the reading.
+  -No it is not always necessary to comment on functions. As long as we give
+   them accurate name and wright the code in a breif way that is easly understood  
+   it will not be usefull to comment always. 
