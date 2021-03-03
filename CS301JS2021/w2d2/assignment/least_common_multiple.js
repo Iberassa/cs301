@@ -22,4 +22,4 @@ let leastCommonMultiple = function (number1, number2) {
     }
 }
 
-console.log(leastCommonMultiple(15, 24)) 
+console.log(leastCommonMultiple(15, 24)); 

@@ -7,4 +7,4 @@ let compute = function (expression, number1, number2) {
 let add = (number1 , number2) => console.log(number1+number2)  //Refactor to pass add logic as an arrow function answer.
 
 
-compute("add",2,3)
+compute("add",2,3);

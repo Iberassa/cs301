@@ -1,9 +1,7 @@
- let compute= function (expression, number1, number2) {
-     if (expression === "add") {
-         return add(number1,number2)
-         } else
-             return "The expression entered is not right."
+ let compute= function (computFun, number1, number2) {
+         return computFun(number1,number2)
  }
- let add = function(number1 , number2){console.log(number1+number2)}
- compute("add",2,3)
+ let add = function(number1 , number2){return(number1+number2)}
+ 
+ console.log(compute(add,2,3))
 
