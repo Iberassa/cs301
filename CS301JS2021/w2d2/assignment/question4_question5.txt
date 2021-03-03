@@ -1,0 +1,18 @@
+/*
+5) A Function Expression is created when the execution reaches it and is usable only from that moment.
+ while A Function Declaration can be called earlier than it is defined. Therefore it is nice to use function declaration 
+ because it is clear and flexable. 
+ 
+ 
+ 6) yes we can use, declare, copy any place of a code.
+ 
+ example:- if (expression === "add") {
+        (function () {console.log('Immediately invoked function execution');
+    })()
+        } else
+            return "The expression entered is not right." 
+ 
+ 
+ */
+
+
