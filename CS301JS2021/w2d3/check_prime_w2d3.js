@@ -1,4 +1,5 @@
 "use strict";
+exports.checkPrime = checkPrime;
 /**
  * 
  * @param {number} number is the number to be evaluated
@@ -13,13 +14,12 @@ function checkPrime(number) {
     return true;
 }
 
-let prompt = require("prompt-sync")();
-let num = +(prompt("Enter a number to check if it prime or not: "));
-let ans= checkPrime(num);
-if (ans===true){
-    console.log(num," is prime.");
-}  else{
-    console.log(num," is not prime");
-}
+// let prompt = require("prompt-sync")();
+// let num = +(prompt("Enter a number to check if it prime or not: "));
+// let ans= checkPrime(num);
+// if (ans===true){
+//     console.log(num," is prime.");
+// }  else{
+//     console.log(num," is not prime");
+// }
 
-exports.checkPrime = checkPrime;

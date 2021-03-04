@@ -1,4 +1,6 @@
 "use strict";
+exports.volumeOfCylinder = volumeOfCylinder;
+exports.areaOfCircle = areaOfCircle;
 /**
  * 
  * @param {number} radius radius of a circle to be used to calculate area
@@ -19,16 +21,13 @@ function volumeOfCylinder(radius, height) {
     return volume;
 }
 
-let prompt = require("prompt-sync")();
-let question = +(prompt("if you want to calculate area enter 1 or if you want to calcualte volume enter 2: "));
-if (question === 1) {
-    let radius = +(prompt("Enter the radius of the circle: "));
-    console.log(areaOfCircle(radius));
-} if (question === 2) {
-    let radius = +(prompt("Enter the radius of the cylinder: "));
-    let height = +(prompt("Enter the height of the cylinder: "));
-    console.log(volumeOfCylinder(radius, height));
-}
-
-exports.volumeOfCylinder = volumeOfCylinder;
-exports.areaOfCircle = areaOfCircle;
+// let prompt = require("prompt-sync")();
+// let question = +(prompt("if you want to calculate area enter 1 or if you want to calcualte volume enter 2: "));
+// if (question === 1) {
+//     let radius = +(prompt("Enter the radius of the circle: "));
+//     console.log(areaOfCircle(radius));
+// } if (question === 2) {
+//     let radius = +(prompt("Enter the radius of the cylinder: "));
+//     let height = +(prompt("Enter the height of the cylinder: "));
+//     console.log(volumeOfCylinder(radius, height));
+// }

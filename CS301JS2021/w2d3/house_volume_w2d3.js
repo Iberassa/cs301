@@ -1,4 +1,8 @@
 "use strict";
+exports.triangleArea = triangleArea;
+exports.roofVolume = roofVolume;
+exports.livingVolume = livingVolume;
+exports.houseVolume = houseVolume;
 /**
  * 
  * @param {number} width width of the house
@@ -52,7 +56,3 @@ function triangleArea(sideA, sideB, sideC){
 
 console.log("expect 2080", houseVolume(16,10,10,10));
 
-exports.triangleArea = triangleArea;
-exports.roofVolume = roofVolume;
-exports.livingVolume = livingVolume;
-exports.houseVolume = houseVolume;
