@@ -1,0 +1,8 @@
+-Brevity is the soul of wit
+-One-letter variables
+-Use abbreviations
+-Soar high. Be abstract
+-Reuse names
+-Underscores for fun 
+-Overlap outer variables
+-Side-effects everywhere!
