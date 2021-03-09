@@ -76,13 +76,17 @@ and “walking” is “ing”. This function takes two parameters and returns t
  * @param {string} str2 a string value to be surched for common suffix
  * @returns {string} common Suffix
  */
-function suffix(str1,str2){
+ function suffix(str1, str2) {
     let commonSuffix = "";
-    if (str1.slice(-3) === str2.slice(-3)){
-        return commonSuffix = (str1.slice(-3));
-    }else{
-        return commonSuffix;
+    for (let i = str1.length-1; i >= 0 ; i--) {
+        for (let j = str2.length-1; j >= 0; j--) {
+            if (str1.slice(i) === str2.slice(j)) {
+                commonSuffix = (str1.slice(i));
+                break;
+            } 
+        }
     }
+    return commonSuffix;
 }
 
 // 6.	Write a function named titleCase with one parameter named s. This function 
@@ -135,7 +139,7 @@ function sumFirst(arr){
           sum += insideArr[0]; 
     }
     return sum;
-}
+} 
 
 /*From Reading:
 1. How can you make a copy of an object?
